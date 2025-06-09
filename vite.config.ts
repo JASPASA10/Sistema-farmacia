@@ -11,7 +11,7 @@ export default defineConfig({
     port: 5000,
     proxy: {
       '/api': {
-        target: 'http://localhost:5002',
+        target: 'https://sistema-farmacia.onrender.com',
         changeOrigin: true,
         secure: false
       }
